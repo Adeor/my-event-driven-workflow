@@ -1,8 +1,23 @@
 class WorkflowTemplate:
-    pass
+    def __init__(self):
+        pass
+
+    def delete():
+        pass
+
 
 class IssueTemplate:
-    pass
+    def __init__(self):
+        pass
+
+    def delete():
+        pass
+
 
 class ArgumentTemplate:
-    pass
+
+    def __init__(self):
+        pass
+
+    def delete():
+        pass

@@ -1,5 +1,4 @@
 class Workflow:
-
     def __init__(self, workflowname):
         archivable = True
         name = workflowname
@@ -41,7 +40,14 @@ class Workflow:
 
 
 class Issue:
+    def __init__(self):
+        pass
 
+    def delete():
+        pass
+
+
+class Argument:
     def __init__(self):
         pass
 
