@@ -15,7 +15,6 @@ class IssueTemplate:
 
 
 class ArgumentTemplate:
-
     def __init__(self):
         pass
 

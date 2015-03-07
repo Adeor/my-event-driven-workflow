@@ -1,6 +1,8 @@
+#represents a flow of Data
 class Workflow:
     def __init__(self, workflowname):
         archivable = True
+        active = True
         name = workflowname
         issues = []
         arguments = []
@@ -19,6 +21,15 @@ class Workflow:
             elif input == 'n':
                 print"aborted."
                 break
+
+    def activate(self):
+        pass
+
+    def deactivate(self):
+        pass
+
+    def commit(self):
+        pass#commit changes like in git -> use git in background
 
     def merge(self, dest_workflow):
         pass
